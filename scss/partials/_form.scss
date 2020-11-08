@@ -1,0 +1,13 @@
+.form {
+  float: right;
+  input,
+  label {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+  }
+  .button {
+    @include button;
+  }
+}

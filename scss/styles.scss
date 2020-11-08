@@ -1,0 +1,13 @@
+//estilos generales
+
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/body';
+
+//estilos individuales
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/tabs';
+@import 'partials/form';
+
+@import 'partials/mediaqueries';

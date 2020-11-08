@@ -1,0 +1,51 @@
+// cuando el device tiene menos de 769px
+@media screen and (max-width: 768px) {
+  .tabs {
+    min-height: auto;
+  }
+  .tabs-inner {
+    width: 100%;
+    float: none;
+  }
+  .tab {
+    padding: 0 0 30px 0;
+    float: none;
+    border-bottom: 1px solid #333333;
+  }
+  .tab-content {
+    width: 100%;
+    max-width: 100%;
+    position: static;
+  }
+  .tab-content .content {
+    transform: translate(0);
+    opacity: 1;
+  }
+  .form {
+    float: none;
+    width: 100%;
+  }
+  .tab label {
+    display: none;
+  }
+  .orador {
+    text-align: center;
+  }
+  .orador .orador-img {
+    margin-bottom: 10px;
+    float: none;
+  }
+  .orador .orador-perfil {
+    float: none;
+  }
+  .orador p {
+    padding-bottom: 10px;
+  }
+  .sponsors-list {
+    text-align: center;
+  }
+  .sponsors-list ul li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

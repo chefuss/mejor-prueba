@@ -1,0 +1,60 @@
+.page-content {
+  padding: 0 30px;
+}
+
+.tabs-inner {
+  float: left;
+  width: 60%;
+}
+.form {
+  float: right;
+  width: 40%;
+}
+
+.tab-content {
+  max-width: 55%;
+}
+
+.orador {
+  overflow: hidden;
+  margin-bottom: 30px;
+  .orador-img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+  }
+  .orador-perfil {
+    float: left;
+  }
+  p {
+    margin: 0;
+  }
+  .orador-name {
+    font-weight: 600;
+  }
+  .orador-cargo,
+  .orador-charla {
+    font-size: 14px;
+  }
+  .orador-charla {
+    color: lighten($text, 10%);
+  }
+  ul {
+    @include lista-link;
+  }
+}
+
+.mapa {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.sponsors-list {
+  ul {
+    @include lista-link;
+    li {
+      margin-right: 20px;
+    }
+  }
+}

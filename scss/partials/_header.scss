@@ -1,0 +1,10 @@
+.header {
+  height: 250px;
+  .img-container {
+    background-image: url('https://placekitten.com/1250/250');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+}

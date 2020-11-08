@@ -1,0 +1,21 @@
+@mixin button ($color: $primary) {
+  background: $color;
+  border: none;
+  color: $white;
+  padding: 7px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+
+  &:hover {
+    background: darken($color, 10%);
+  }
+}
+
+@mixin lista-link {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  li {
+    display: inline-block;
+  }
+}

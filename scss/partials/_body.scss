@@ -1,0 +1,14 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fuente-principal;
+  color: $text;
+}
+
+img {
+  max-width: 100%;
+}
